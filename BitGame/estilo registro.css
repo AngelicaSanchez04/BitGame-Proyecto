@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: auto;
+    font-family: 'Segoe UI';
+    background-color: #0b2138;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.register-box {
+    background-color: #013763;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 200%;
+}
+
+.register-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.register-box label {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    display: block;
+}
+
+.register-box input[type="text"],
+.register-box input[type="email"],
+.register-box input[type="date"],
+.register-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+.register-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-box input[type="submit"]:hover {
+    opacity: 0,9;
+    background-color: #d45f19;
+}
+
+.secondary-btn {
+    background-color: #d45f19;
+    margin-top: 10px;
+}
+

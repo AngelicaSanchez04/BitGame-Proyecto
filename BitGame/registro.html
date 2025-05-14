@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilo registro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="register-box">
+    <form method="POST" action="registro.php">
+        <h2>Formulario de Registro</h2>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required><br>
+
+        <label>Apellido Paterno:</label>
+        <input type="text" name="apellido_pat" required><br>
+
+        <label>Apellido Materno:</label>
+        <input type="text" name="apellido_mat" required><br>
+
+        <label>Correo Electrónico:</label>
+        <input type="email" name="correo_elect" required><br>
+
+        <label>Teléfono:</label>
+        <input type="text" name="telefono" required><br>
+
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" name="fecha_nacimiento" required><br>
+
+        <label>País o Región:</label>
+        <input type="text" name="pais_region" required><br>
+
+        <label>Contraseña:</label>
+        <input type="password" name="contrasena" required><br><br>
+
+        <input type="submit" value="Registrarse">
+    </form>
+    
+    <form action="login.html" method="get">
+        <input type="submit" value="Regresar" class="secondary-btn">
+    </form>
+      </div>
+    </div>
+</body>
+</html>
